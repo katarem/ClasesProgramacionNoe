@@ -7,6 +7,11 @@ public class App
         return a + b;
     }
 
+    public static String toCaps(String in){
+        return in.toUpperCase();
+    }
+
+
     public static void main( String[] args )
     {
 
