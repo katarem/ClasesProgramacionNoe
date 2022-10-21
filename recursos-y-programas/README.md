@@ -20,6 +20,11 @@ Este es un simple script de **PowerShell** que instalará **Chocolatey**, un sof
 
 * **GitHub Desktop** -> Es una interfaz gráfica que permitirá sinconizar nuestros proyectos como repositorios en **GitHub** a través de **Git**
 
+# Cómo instalar
+Diríjete al icono de Windows, click derecho y click a **Windows Powershell (Administrador)**, recomiendo que al descargar el archivo lo dejes en **Escritorio**,
+después de ejecutarlo correctamente se puede borrar, sólo instala los programas. Una vez tengamos la **Terminal de Powershell** abierta, haremos:
+
+`cd C:/users/[NUESTRO NOMBRE DE USUARIO]/Desktop | ./instalador.ps1`
 
 
 
