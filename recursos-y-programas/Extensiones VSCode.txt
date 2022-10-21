@@ -1,0 +1,5 @@
+Ahora que has instalado el software para realizar el curso, me gustaría que instalases
+algunas extensiones en Visual Studio Code que te serán muy útiles.
+
+    - Extension Pack for Java de Microsoft
+    - Material Icon Theme (opcional, es algo estético)
