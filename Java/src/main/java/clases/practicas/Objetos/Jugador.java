@@ -33,14 +33,18 @@ public class Jugador{
     public void setPosicion(int posicion) {
         this.posicion = posicion;
     }
-    public boolean isLesionado() {
-        return lesionado;
+    public String isLesionado() {
+        if(lesionado)
+            return "está lesionado";
+        return "no está lesionado";
     }
     public void setLesionado(boolean lesionado) {
         this.lesionado = lesionado;
     }
 
-
+    public String toString(){
+        return String.format("%s juega en posición %d y %s, juega para el equipo %s",nombre,posicion,isLesionado(),equipo);
+    }
 
 
 
